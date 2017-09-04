@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <assert.h>
 #include <time.h>
 
 typedef struct {
@@ -69,7 +68,7 @@ void getMatchingWord(char *word, dictionaryNode **dictionary, int size);
 /// \return word location
 int getWordLocation(char *word, dictionaryNode **dictionary, int size);
 
-int main(int argc, char *argv[]) {
+int main_synonyms(int argc, char *argv[]) {
     FILE *fileToChange = NULL;
     FILE *dictionary = NULL;
     FILE *tmp = NULL;
