@@ -1,6 +1,10 @@
 #include <iostream>
+#include "Bar.h"
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Bar cityBar(11);
+    cityBar.addToStock();
+    cityBar.serve();
     return 0;
 }
