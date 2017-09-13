@@ -24,6 +24,9 @@ public:
     /// \param
     /// \return the next cell of the array
     T& operator++ (int index);
+    ///
+    /// \param
+    /// \return the previous cell of the array
     T& operator-- (int index);
 
 
