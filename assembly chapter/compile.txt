@@ -1,0 +1,2 @@
+bin\ml /c /coff /Cp /Zi *.asm
+bin\link.exe /SUBSYSTEM:console /debug *.obj
